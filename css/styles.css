@@ -238,9 +238,13 @@ footer{background:var(--forest-dark);border-top:1px solid rgba(255,255,255,.06);
   footer{flex-direction:column;gap:20px;text-align:center;padding:36px 32px;}
 }
 @media(max-width:600px){
+  .offer-cta-bar{flex-direction:column;align-items:flex-start;}
+  .offer-card-price{font-size:60px;}
   .hero-left{padding:100px 20px 64px;min-width:0;}
   .hero-kicker{max-width:100%;letter-spacing:.08em;}
   .offer-pill{padding:16px 18px;gap:12px;max-width:100%;}
   .offer-price{font-size:30px;}
   .btn-lg{padding:16px 22px;font-size:13px;white-space:normal;}
 }
+.offer-price .per,.offer-card-price .per{font-size:.4em;font-weight:400;margin-left:2px;}
+.offer-card-price-label.setup{text-transform:none;letter-spacing:.02em;font-size:12px;line-height:1.6;color:rgba(255,255,255,.75);margin-top:10px;}
