@@ -1,19 +1,11 @@
+Model: bytedance/seedream/v5/pro/edit
+Inputs: IMAGE 1 = drawing to edit, IMAGE 2 = apron-proof.jpg
+
 Edit IMAGE 1 only. Keep everything else exactly as it is: scene, characters, pose, props, lighting, colours and the hand-painted gouache style.
-Scene note: __NOTE__
+Scene note: [describe the pose and anything in front of the apron]
 
-IMAGE 2 is the flat proof of the sloth's apron. Make the sloth in IMAGE 1 wear that exact apron. First remove EVERYTHING currently printed on its apron (any logo, badge, patch or text), so the apron is plain moss green.
+IMAGE 2 is the flat proof of the sloth's apron. Make the sloth in IMAGE 1 wear that exact apron. First remove everything currently printed on its apron (any logo, badge, patch or text), so the apron is plain moss green.
 
-Then add only these two small cream prints, both on the bib (the narrow chest panel), side by side on one line just below the neck strap:
-- LEFT (as the viewer sees it): the word MOCHA in small serif capitals.
-- RIGHT: a small round line-art badge with no words (a circle containing a sun rising over wavy dunes, with tiny stars). Its diameter is about the same as the height of MOCHA's letters times two, roughly the size of the sloth's eye marking.
-MOCHA and the badge sit at the same height, mirrored across the centre of the bib, like a name tag and a chest logo on a real work apron.
+Then add one small cream print: the word MOCHA in small serif capitals in the top-left corner of the bib (as the viewer sees it), just below the neck strap. Its letters are about the height of the sloth's eye markings, so it looks the same size in every drawing. The print is flat on the fabric and bends with it; if an arm or object is in front of the chest it covers it naturally; if the body is turned or lying down it turns with it.
 
-The rest of the apron, including the whole skirt and belly, stays plain moss green with no print.
-
-Size: MOCHA's letters are about the height of the sloth's eye markings, so the prints look the same size in every drawing.
-Realism: the prints are flat on the fabric and bend with it; if an arm or object is in front of the chest it covers them naturally; if the body is turned or lying down they turn with it.
-
-Exactly one MOCHA and one small badge. No NOMAD CAFÉ text, no other print. Spell exactly: MOCHA.
-
-
-Model: bytedance/seedream/v5/pro/edit. Inputs: IMAGE 1 = drawing to edit, IMAGE 2 = apron-proof.jpg.
+The rest of the apron stays plain moss green. Exactly one MOCHA, nothing else printed. Spell exactly: MOCHA.
