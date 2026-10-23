@@ -1,26 +1,19 @@
 Edit IMAGE 1 only. Keep everything else exactly as it is: scene, characters, pose, props, lighting, colours and the hand-painted gouache style.
 Scene note: __NOTE__
 
-IMAGE 2 is the flat proof of the sloth's apron. IMAGE 3 shows the same sloth correctly wearing it. Make the sloth in IMAGE 1 wear that exact apron, replacing whatever is currently printed on its apron. Remove any existing logo, patch or text first.
+IMAGE 2 is the flat proof of the sloth's apron. Make the sloth in IMAGE 1 wear that exact apron. First remove EVERYTHING currently printed on its apron (any logo, badge, patch or text), so the apron is plain moss green.
 
-THE APRON
-One moss-green bib apron with a dashed stitched edge: a narrow bib over the chest, a neck strap, waist ties at the bottom of the ribcage, and a wider skirt over the belly and thighs. It is fabric, so it follows the body's shape and pose.
+Then add only these two small cream prints, both on the bib (the narrow chest panel), side by side on one line just below the neck strap:
+- LEFT (as the viewer sees it): the word MOCHA in small serif capitals.
+- RIGHT: a small round line-art badge with no words (a circle containing a sun rising over wavy dunes, with tiny stars). Its diameter is about the same as the height of MOCHA's letters times two, roughly the size of the sloth's eye marking.
+MOCHA and the badge sit at the same height, mirrored across the centre of the bib, like a name tag and a chest logo on a real work apron.
 
-PRINT LAYOUT (all cream, flat screen-printed onto the fabric)
-1. MOCHA: small serif capitals in the top-left corner of the bib (as the viewer sees it), just under the neck strap. Its width is about one third of the bib's width.
-2. BADGE: exactly one round line-art badge (a circle containing a sun rising over wavy dunes, with three small four-point stars). Centred left-to-right on the apron, on the belly. Its top edge sits just below the waistline where the waist ties attach.
-3. NOMAD CAFÉ: one line of serif capitals, centred directly under the badge with a small gap (about a tenth of the badge's diameter). About as wide as the badge, or slightly wider.
+The rest of the apron, including the whole skirt and belly, stays plain moss green with no print.
 
-CONSISTENT SIZE
-Size the print against the sloth itself so it matches every other drawing:
-- Badge diameter = about three quarters of the width of the sloth's head.
-- MOCHA letters are small, about the height of the sloth's eye markings.
-- NOMAD CAFÉ letters are about the same height as MOCHA's letters, or slightly larger.
+Size: MOCHA's letters are about the height of the sloth's eye markings, so the prints look the same size in every drawing.
+Realism: the prints are flat on the fabric and bend with it; if an arm or object is in front of the chest it covers them naturally; if the body is turned or lying down they turn with it.
 
-REALISTIC PLACEMENT
-- The print sits on the fabric and bends with it: foreshortened if the body is turned, curved slightly over the belly, rotated with the body if lying down.
-- Arms, hands, cups, coffee pots or counters in front of the apron cover parts of the print, exactly as they would in real life. Do not move anything to reveal it, and do not shift the print to avoid them.
-- It never floats on top of an arm or object.
+Exactly one MOCHA and one small badge. No NOMAD CAFÉ text, no other print. Spell exactly: MOCHA.
 
-RULES
-Exactly one MOCHA, one badge and one NOMAD CAFÉ. Nothing else printed on the apron. Spell exactly: MOCHA, NOMAD CAFÉ.
+
+Model: bytedance/seedream/v5/pro/edit. Inputs: IMAGE 1 = drawing to edit, IMAGE 2 = apron-proof.jpg.
