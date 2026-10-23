@@ -1,0 +1,21 @@
+Edit IMAGE 1 only. Keep the scene, characters, pose, props, colours and hand-painted gouache style exactly as they are.
+Scene note: __NOTE__
+
+The sloth wears ONE moss-green apron (one bib, one skirt, stitched edge). Remove any existing apron logo or text first. Copy the design from IMAGE 2 exactly, worn on the body the way it is in IMAGE 3. Measure everything against the apron itself, not the picture, so the ratios stay the same at any size or angle:
+
+BIB (the narrow top panel, chest area)
+- "MOCHA" in small cream serif capitals, top-left corner as the viewer sees it.
+- Its width = about one third (34%) of the bib's width.
+- Inset from the bib's top edge and left edge by about one eighth (12%) of the bib's width.
+
+SKIRT (the wide lower panel, belly and below)
+- Exactly one round cream line badge: a circle with a sun rising over wavy dunes and three small four-point stars.
+- Badge diameter = just under half (46%) of the skirt's width, centred left-to-right.
+- Top of the badge sits just below the waist line where the bib meets the skirt, with a gap of about one sixth of the badge's diameter.
+- "NOMAD CAFÉ" in cream serif capitals, one line, centred directly under the badge.
+- Text width = slightly wider than the badge (about 1.15x its diameter).
+- Gap between badge and text = about one fourteenth (7%) of the badge's diameter.
+
+If the body is turned or lying down, rotate and foreshorten the whole layout with the apron, but keep these ratios. Arms or objects may cover parts of it; that's fine.
+
+Exactly one MOCHA, one badge, one NOMAD CAFÉ. No other logos, patches or text on the apron. Spell exactly: MOCHA, NOMAD CAFÉ.
