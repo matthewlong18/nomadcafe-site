@@ -1,355 +1,324 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nomad Café — Campaigns that bring solo business owners leads</title>
-<meta name="description" content="I help solo business owners turn strangers into regulars with a custom AI system, built in 30 days. Then I run one campaign at a time: a clear offer, a lead magnet and a landing page. Start with a free 20-minute strategy session.">
+<title>Nomad Café — Turn strangers into regulars</title>
+<meta name="description" content="I help solo business owners turn strangers into regulars with a custom AI system, built in 30 days. Start with a free 20-minute strategy session.">
+<meta property="og:title" content="Nomad Café — Turn strangers into regulars">
+<meta property="og:description" content="A good brand runs like a good café. I build the AI system behind yours, in 30 days.">
+<meta property="og:image" content="https://nomadcafe.co/assets/mocha/mocha-slow-pour.jpg">
+<meta property="og:url" content="https://nomadcafe.co/">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=DM+Sans:opsz,wght@9..40,300..600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+html{scroll-behavior:smooth}
+body{margin:0;background:#F6F2E8}
+a{color:#4E5A2F}a:hover{color:#23261D}
+a:focus-visible{outline:3px solid #B9772F;outline-offset:3px}
+@media (max-width:720px){.nav-link{display:none}}
+</style>
 <!-- PostHog analytics (EU) -->
 <script>
 (function(){var s=document.createElement('script');s.async=true;s.src='https://eu-assets.i.posthog.com/static/array.js';
 s.onload=function(){window.posthog.init('phc_pv3DCGxzfxWojJ4Aufg7Ad2efhmTL8SZztxmJtunDiv5',{api_host:'https://eu.i.posthog.com',defaults:'2026-01-30',cookieless_mode:'always'})};
 document.head.appendChild(s)})();
 </script>
-</head><body>
+</head>
+<body>
+<div style="background: #F6F2E8; color: #23261D; font-family: 'DM Sans', sans-serif; font-size: 18px; line-height: 1.6; min-height: 100vh">
 
-<!-- NAV -->
-<nav>
-  <a href="#" class="nav-logo">Nomad Café<span class="dot">.</span></a>
-  <ul>
-    <li><a href="#how">How It Works</a></li>
-    <li><a href="#offer">The Offer</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#strategy" class="nav-cta">Book Free Call</a></li>
-  </ul>
+<header style="border-bottom: 1px solid #D9D6C3">
+<div style="max-width: 1160px; margin: 0 auto; padding: 20px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="#top" style="font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 600; color: #23261D; text-decoration: none">Nomad Café<span style="color: #B9772F">.</span></a>
+<nav aria-label="Main" style="display: flex; flex-wrap: wrap; align-items: center; gap: 28px; font-size: 16px">
+<a href="#floor" class="nav-link" style="color: #23261D; text-decoration: none">The floor plan</a>
+<a href="#pricing" class="nav-link" style="color: #23261D; text-decoration: none">Pricing</a>
+<a href="#rules" class="nav-link" style="color: #23261D; text-decoration: none">House rules</a>
+<a href="#book" data-cta="nav" style="background: #5E6B3A; color: #FFFFFF; text-decoration: none; padding: 12px 20px; border-radius: 999px; font-weight: 600; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Pull up a chair</a>
 </nav>
-
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-left">
-    <div class="hero-kicker"><span class="dot"></span> Campaign-based · paid on growth</div>
-    <h1>One offer.<br>One campaign.<br><em>Leads that show up.</em></h1>
-    <p class="hero-sub">You didn't quit your job to build spreadsheets. I help solo business owners turn strangers into regulars with a custom AI system, built in 30 days. Then I run one campaign at a time: one clear offer, one lead magnet, one landing page. I build it, you don't touch it.</p>
-
-    <div class="offer-pill">
-      <div class="offer-price"><sup>$</sup>500<span class="per">/mo</span></div>
-      <div class="offer-div"></div>
-      <div class="offer-detail">
-        <div class="offer-name">Campaign Partner</div>
-        <div class="offer-sub">USD · + 10% of growth above your baseline · 6 months · guaranteed</div>
-      </div>
-    </div>
-
-    <div class="hero-cta">
-      <a href="#strategy" class="btn btn-forest btn-lg">Book a free strategy session <span class="arrow">→</span></a>
-      <a href="#offer" class="btn-ghost">See what's included ↓</a>
-    </div>
-  </div>
-  <div class="hero-right">
-    <div class="hero-bg-img">
-      <img src="assets/hero-bg.svg" alt="Café">
-    </div>
-    <div class="hero-overlay"></div>
-    <img class="hero-portrait" src="assets/hero-portrait.jpg" alt="Matthew Long">
-    <div class="hero-card top">
-      <div class="hcard-icon">☕</div>
-      <div class="hcard-title">Built over a slow pour</div>
-      <div class="hcard-sub">Copenhagen-based · clients anywhere</div>
-    </div>
-    <div class="hero-card bot">
-      <div class="hcard-icon">⚡</div>
-      <div class="hcard-title">Free 20-min strategy session</div>
-      <div class="hcard-sub">No pitch. Just the bottleneck.</div>
-    </div>
-  </div>
-</section>
-
-<!-- TICKER -->
-<div class="ticker">
-  <div class="ticker-track">
-    <span class="ticker-item">One Clear Offer <span class="ticker-dot">✦</span></span>
-    <span class="ticker-item">Lead Magnet <span class="ticker-dot">✦</span></span>
-    <span class="ticker-item">Landing Page <span class="ticker-dot">✦</span></span>
-    <span class="ticker-item">Built As A Campaign <span class="ticker-dot">✦</span></span>
-    <span class="ticker-item">2 Weeks <span class="ticker-dot">✦</span></span>
-    <span class="ticker-item">Paid On Growth <span class="ticker-dot">✦</span></span>
-    <span class="ticker-item">You Own Everything <span class="ticker-dot">✦</span></span>
-    <span class="ticker-item">Free Strategy Session <span class="ticker-dot">✦</span></span>
-    <span class="ticker-item">One Clear Offer <span class="ticker-dot">✦</span></span>
-    <span class="ticker-item">Lead Magnet <span class="ticker-dot">✦</span></span>
-    <span class="ticker-item">Landing Page <span class="ticker-dot">✦</span></span>
-    <span class="ticker-item">Built As A Campaign <span class="ticker-dot">✦</span></span>
-    <span class="ticker-item">2 Weeks <span class="ticker-dot">✦</span></span>
-    <span class="ticker-item">Paid On Growth <span class="ticker-dot">✦</span></span>
-    <span class="ticker-item">You Own Everything <span class="ticker-dot">✦</span></span>
-    <span class="ticker-item">Free Strategy Session <span class="ticker-dot">✦</span></span>
-  </div>
 </div>
+</header>
 
-<!-- LIFESTYLE BAND -->
-<div class="lifestyle-band">
-  <div class="limg"><img src="assets/lifestyle-1.jpg" alt="Working remote"><div class="cap">The office today</div></div>
-  <div class="limg"><img src="assets/lifestyle-2.jpg" alt="Espresso"><div class="cap">Built from right here</div></div>
-  <div class="limg"><img src="assets/lifestyle-3.jpg" alt="Café work"><div class="cap">Harbour view, deep work</div></div>
-  <div class="limg"><img src="assets/lifestyle-4.jpg" alt="Laptop café"><div class="cap">Campaigns that run while you travel</div></div>
+<section id="top" style="max-width: 1160px; margin: 0 auto; padding: 88px 24px 104px; display: flex; flex-wrap: wrap; align-items: center; gap: 64px">
+<div style="flex: 999 1 520px; min-width: 0">
+<div style="font-family: 'DM Mono', monospace; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: #4E5A2F; margin-bottom: 24px">A good brand runs like a good café</div>
+<h1 style="font-family: 'Playfair Display', serif; font-weight: 500; font-size: clamp(48px, 6.5vw, 88px); line-height: 1; letter-spacing: -0.02em; margin: 0 0 28px">Turn strangers into <em style="color: #5E6B3A; font-weight: 400">regulars.</em></h1>
+<p style="font-size: 21px; line-height: 1.55; color: #50544A; max-width: 540px; margin: 0 0 36px">I help solo business owners turn strangers into regulars with a custom AI system, built in 30 days. You keep doing the work you love. I build the rest, and you don't touch it.</p>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 20px; margin-bottom: 32px">
+<a href="#book" data-cta="hero" style="background: #5E6B3A; color: #FFFFFF; text-decoration: none; padding: 18px 28px; border-radius: 999px; font-weight: 600; font-size: 18px">Book a free 20-min chat</a>
+<a href="#floor" style="font-weight: 600; font-size: 17px">See how the café runs</a>
 </div>
-
-<!-- PROBLEM -->
-<section class="problem-section">
-  <div class="problem-inner">
-    <div class="problem-intro">
-      <div>
-        <div class="label reveal">The problem</div>
-        <h2 class="serif reveal">Every solo<br>operator hits the<br><em>same four walls.</em></h2>
-      </div>
-      <p class="reveal">You went solo to do the work you're good at. Then it turned out you're also the marketing department. You don't need more tools. You need one campaign that actually brings people in.</p>
-    </div>
-    <div class="problem-cards reveal">
-      <div class="pcard">
-        <span class="pcard-emoji">🌀</span>
-        <div class="pcard-title">An offer that takes three paragraphs</div>
-        <p class="pcard-body">You do great work. But when someone asks what you sell, the answer wanders. Confused people don't buy. They nod and move on.</p>
-      </div>
-      <div class="pcard">
-        <span class="pcard-emoji">🕳️</span>
-        <div class="pcard-title">Leads with nowhere to go</div>
-        <p class="pcard-body">Someone's interested. They comment, they DM, and then nothing. No next step, no follow-up. They go cold while you're busy with client work.</p>
-      </div>
-      <div class="pcard">
-        <span class="pcard-emoji">📣</span>
-        <div class="pcard-title">Posting with nothing behind it</div>
-        <p class="pcard-body">You show up on social. People like it. Then it leads nowhere, because there's nothing to point them to and no reason to hand over an email.</p>
-      </div>
-      <div class="pcard">
-        <span class="pcard-emoji">⏱️</span>
-        <div class="pcard-title">Marketing gets the leftovers</div>
-        <p class="pcard-body">Client work eats the week. Marketing gets whatever's left on Sunday night, which is usually nothing. So the pipeline stays empty.</p>
-      </div>
-    </div>
-  </div>
+<div style="display: flex; flex-wrap: wrap; gap: 10px 24px; font-family: 'DM Mono', monospace; font-size: 13px; color: #50544A">
+<span>No pitch</span><span aria-hidden="true">·</span><span>Built in 30 days</span><span aria-hidden="true">·</span><span>Paid on growth</span>
+</div>
+</div>
+<figure style="flex: 1 1 340px; min-width: 0; max-width: 440px; margin: 0">
+<img src="/assets/mocha/mocha-slow-pour.jpg" fetchpriority="high" alt="Illustration of Mocha, a sloth barista in a moss-green apron, slowly pouring a pour-over coffee by a sunny café window" style="display: block; width: 100%; aspect-ratio: 619 / 768; object-fit: cover; border-radius: 28px">
+<figcaption style="margin-top: 14px; font-family: 'DM Mono', monospace; font-size: 13px; color: #50544A">Mocha, head barista. Never rushes. Never misses an order.</figcaption>
+</figure>
 </section>
 
-<!-- HOW IT WORKS -->
-<section id="how">
-  <div class="journey-section">
-    <div class="label reveal">How it works</div>
-    <h2 class="serif reveal">From free session to<br><em>live campaign</em><br>in two weeks.</h2>
-    <div class="journey-grid">
-      <div class="journey-steps">
-        <div class="jstep reveal">
-          <div class="jnum">1</div>
-          <div>
-            <div class="jstep-title">Book a free strategy session</div>
-            <p class="jstep-body">20 minutes. No pitch. We look at how people find you today and find the one bottleneck costing you the most clients. You leave with clarity whether you hire me or not.</p>
-          </div>
-        </div>
-        <div class="jstep reveal">
-          <div class="jnum">2</div>
-          <div>
-            <div class="jstep-title">I set up the system</div>
-            <p class="jstep-body">The backend every campaign runs on: lead capture, automatic follow-up, and tracking so you can see what's working. Two weeks, about two hours of your time.</p>
-          </div>
-        </div>
-        <div class="jstep reveal">
-          <div class="jnum">3</div>
-          <div>
-            <div class="jstep-title">We run campaigns</div>
-            <p class="jstep-body">One at a time. A clear offer, a lead magnet worth trading an email for, and the landing page that sells it. I build it, you don't touch it.</p>
-          </div>
-        </div>
-        <div class="jstep reveal">
-          <div class="jnum">4</div>
-          <div>
-            <div class="jstep-title">Review, tune, repeat</div>
-            <p class="jstep-body">Every month we look at what worked, cut what didn't, and decide what runs next. Each campaign starts smarter than the last.</p>
-          </div>
-        </div>
-      </div>
-      <div class="journey-visual reveal">
-        <img src="assets/journey-visual.svg" alt="Working in a café">
-        <div class="journey-visual-overlay"></div>
-        <div class="journey-visual-text">
-          <div class="big">20 min</div>
-          <div class="small">Free strategy session · no strings attached</div>
-        </div>
-      </div>
-    </div>
-  </div>
+<section style="background: #ECEBDC">
+<div style="max-width: 1160px; margin: 0 auto; padding: 96px 24px">
+<div style="font-family: 'DM Mono', monospace; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: #4E5A2F; margin-bottom: 16px">01 — Sound familiar?</div>
+<h2 style="font-family: 'Playfair Display', serif; font-weight: 500; font-size: clamp(34px, 4vw, 52px); line-height: 1.1; margin: 0 0 56px; max-width: 780px">Great coffee, empty café. You're good at the work. Nobody's coming in.</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 40px">
+<div style="border-top: 1px solid #C4C6AC; padding-top: 24px">
+<div style="font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 500; margin-bottom: 10px">Nobody stops at the window</div>
+<p style="margin: 0; color: #50544A">You post, people scroll past. There's nothing that makes a stranger stop and step inside.</p>
+</div>
+<div style="border-top: 1px solid #C4C6AC; padding-top: 24px">
+<div style="font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 500; margin-bottom: 10px">They walk in, then wander off</div>
+<p style="margin: 0; color: #50544A">Someone's interested, then nothing. No clear menu, no next step, no follow-up. They go cold.</p>
+</div>
+<div style="border-top: 1px solid #C4C6AC; padding-top: 24px">
+<div style="font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 500; margin-bottom: 10px">Nobody comes back</div>
+<p style="margin: 0; color: #50544A">One job, then silence. No reason to return and nobody reminding them you exist.</p>
+</div>
+</div>
+</div>
 </section>
 
-<!-- STRATEGY CALL -->
-<section class="strategy-section" id="strategy">
-  <div class="strategy-inner">
-    <div class="strategy-left">
-      <div class="label white reveal">Free strategy session</div>
-      <h2 class="serif white reveal">Twenty minutes to<br><em>find the one thing</em><br>costing you clients.</h2>
-      <p class="reveal">Most people know something's off. They just can't see which part. We look at it together, with no pitch and no pressure, and find the single fix worth doing first.</p>
-      <div class="strategy-what reveal">
-        <div class="swhat-item">
-          <div class="swhat-icon">🗺️</div>
-          <div class="swhat-body"><strong>Find the bottleneck</strong>Your offer, how people find you, and where leads quietly fall through the cracks.</div>
-        </div>
-        <div class="swhat-item">
-          <div class="swhat-icon">🎯</div>
-          <div class="swhat-body"><strong>See the campaign that fixes it</strong>Not a list of tools. One offer, one lead magnet, one page, sketched around your business.</div>
-        </div>
-        <div class="swhat-item">
-          <div class="swhat-icon">📄</div>
-          <div class="swhat-body"><strong>Walk away with it in writing</strong>What to cut, what to fix first, what I'd build. Yours to keep, even if you don't hire me.</div>
-        </div>
-      </div>
-    </div>
-    <div class="strategy-card reveal">
-      <div class="scard-label">Free · 20 minutes · no pitch</div>
-      <div class="scard-title">Nomad Café Strategy Session</div>
-      <div class="scard-sub">With Matthew Long · Copenhagen</div>
-      <div class="scard-divider"></div>
-      <div class="scard-points">
-        <div class="scard-pt">Look at your offer and how leads find you</div>
-        <div class="scard-pt">Find the one bottleneck costing you the most</div>
-        <div class="scard-pt">Sketch the campaign that fixes it</div>
-        <div class="scard-pt">Get a straight answer on whether I can help</div>
-        <div class="scard-pt">Walk away with a written summary, no strings</div>
-      </div>
-      <a href="mailto:matt@nomadcafe.co?subject=Strategy Session Request" class="btn btn-forest scard-cta">Book your free session <span class="arrow">→</span></a>
-      <div class="scard-note">No pitch · No credit card · Just clarity</div>
-    </div>
-  </div>
+<section id="floor" style="max-width: 1160px; margin: 0 auto; padding: 112px 24px">
+<div style="font-family: 'DM Mono', monospace; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: #4E5A2F; margin-bottom: 16px">02 — The café floor plan</div>
+<h2 style="font-family: 'Playfair Display', serif; font-weight: 500; font-size: clamp(34px, 4vw, 52px); line-height: 1.1; margin: 0 0 16px; max-width: 780px">Every business is a café. I set up every room.</h2>
+<p style="margin: 0 0 56px; max-width: 620px; color: #50544A; font-size: 20px">Strangers walk past the window, order at the counter, get served from the kitchen and come back as regulars. Here's what I build in each room.</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr)); gap: 28px">
+<article style="background: #FFFFFF; border: 1px solid #D9D6C3; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column">
+<img loading="lazy" src="/assets/mocha/front-window.jpg" alt="Illustration of Mocha hanging a chalkboard sign in the café's front window while a fox and a hedgehog peek in" style="display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover">
+<div style="padding: 28px 28px 32px; display: flex; flex-direction: column; gap: 8px">
+<div style="font-family: 'DM Mono', monospace; font-size: 13px; color: #4E5A2F">The front window · get known</div>
+<div style="font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 500">Make strangers stop</div>
+<p style="margin: 0; color: #50544A">A lead magnet worth stepping in for, and content that points straight at it.</p>
+</div>
+</article>
+<article style="background: #FFFFFF; border: 1px solid #D9D6C3; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column">
+<img loading="lazy" src="/assets/mocha/counter.jpg" alt="Illustration of Mocha handing a warm cup of coffee across the counter to a smiling fox" style="display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover">
+<div style="padding: 28px 28px 32px; display: flex; flex-direction: column; gap: 8px">
+<div style="font-family: 'DM Mono', monospace; font-size: 13px; color: #4E5A2F">The counter · get hired</div>
+<div style="font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 500">A menu anyone can order from</div>
+<p style="margin: 0; color: #50544A">One clear offer and one landing page that sells it. No three-paragraph explanations.</p>
+</div>
+</article>
+<article style="background: #FFFFFF; border: 1px solid #D9D6C3; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column">
+<img loading="lazy" src="/assets/mocha/kitchen.jpg" alt="Illustration of a café kitchen where the espresso machine and a conveyor of cups run by themselves while Mocha sips coffee on a stool" style="display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover">
+<div style="padding: 28px 28px 32px; display: flex; flex-direction: column; gap: 8px">
+<div style="font-family: 'DM Mono', monospace; font-size: 13px; color: #4E5A2F">The kitchen · do the work</div>
+<div style="font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 500">It runs while you sip</div>
+<p style="margin: 0; color: #50544A">AI follow-up, booking and admin that happen on their own, so leads never sit waiting.</p>
+</div>
+</article>
+<article style="background: #FFFFFF; border: 1px solid #D9D6C3; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column">
+<img loading="lazy" src="/assets/mocha/regulars.jpg" alt="Illustration of a fox, a hedgehog and an owl chatting at a café table while Mocha brings coffee refills" style="display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover">
+<div style="padding: 28px 28px 32px; display: flex; flex-direction: column; gap: 8px">
+<div style="font-family: 'DM Mono', monospace; font-size: 13px; color: #4E5A2F">The regulars · get hired again</div>
+<div style="font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 500">Everyone comes back</div>
+<p style="margin: 0; color: #50544A">Check-ins, reviews and referral nudges that turn one job into a relationship.</p>
+</div>
+</article>
+</div>
+<article style="margin-top: 28px; background: #E7E8D6; border-radius: 24px; overflow: hidden; display: flex; flex-wrap: wrap; align-items: stretch">
+<img loading="lazy" src="/assets/mocha/back-office.jpg" alt="Illustration of Mocha napping in a hammock above a tidy desk with a laptop showing a rising chart" style="flex: 1 1 340px; min-width: 0; display: block; width: 100%; max-width: 560px; aspect-ratio: 4 / 3; object-fit: cover">
+<div style="flex: 999 1 340px; min-width: 0; padding: 40px 40px 44px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; gap: 12px">
+<div style="font-family: 'DM Mono', monospace; font-size: 13px; color: #3E4726">The back office · the hub</div>
+<div style="font-family: 'Playfair Display', serif; font-size: 32px; font-weight: 500; line-height: 1.15">One place to see what's working.</div>
+<p style="margin: 0; color: #43473B">Every lead, every booking and every result in one calm view. It runs itself, which is why Mocha naps up here.</p>
+</div>
+</article>
 </section>
 
-<!-- THE OFFER -->
-<section id="offer">
-  <div class="offer-section">
-    <div class="label reveal">The offer</div>
-    <h2 class="serif reveal">One partner.<br><em>One campaign at a time.</em><br>Leads every month.</h2>
-
-    <div class="offer-card reveal">
-      <!-- Top bar -->
-      <div class="offer-card-top">
-        <div>
-          <div class="offer-card-name">Campaign Partner</div>
-          <div class="offer-card-tagline">I set up the marketing system once, then build and run your campaigns month after month. You keep doing the work. I keep the leads coming.</div>
-        </div>
-        <div class="offer-card-price-block">
-          <div class="offer-card-price"><sup>$</sup>500<span class="per">/mo</span></div>
-          <div class="offer-card-price-label">USD · 6-month term</div>
-          <div class="offer-card-price-label setup">+ 10% of revenue above your baseline<br>+ $1,500 setup · split into 3 payments or finance it over 12 months</div>
-        </div>
-      </div>
-
-      <!-- Bottom: deliverables -->
-      <div class="offer-card-bottom">
-        <div class="offer-deliverables">
-          <h3>What's included</h3>
-          <ul class="offer-list">
-            <li class="offer-item">
-              <div class="offer-item-icon">⚙️</div>
-              <div class="offer-item-body">
-                <div class="offer-item-title">The marketing system, set up once</div>
-                <div class="offer-item-desc">The backend behind every campaign: lead capture, automatic follow-up, and simple tracking. Covered by the one-time setup fee.</div>
-              </div>
-            </li>
-            <li class="offer-item">
-              <div class="offer-item-icon">📌</div>
-              <div class="offer-item-body">
-                <div class="offer-item-title">A clear offer for each campaign</div>
-                <div class="offer-item-desc">What you sell, who it's for, and what it costs, in one sentence. The thing the whole campaign points at.</div>
-              </div>
-            </li>
-            <li class="offer-item">
-              <div class="offer-item-icon">🧲</div>
-              <div class="offer-item-body">
-                <div class="offer-item-title">A lead magnet people actually want</div>
-                <div class="offer-item-desc">A checklist, guide, or free tool your ideal client actually wants. The reason someone hands over their email.</div>
-              </div>
-            </li>
-            <li class="offer-item">
-              <div class="offer-item-icon">🎯</div>
-              <div class="offer-item-body">
-                <div class="offer-item-title">A landing page that sells it</div>
-                <div class="offer-item-desc">A single page that sells the lead magnet and captures every lead straight into your system.</div>
-              </div>
-            </li>
-            <li class="offer-item">
-              <div class="offer-item-icon">📈</div>
-              <div class="offer-item-body">
-                <div class="offer-item-title">A monthly review</div>
-                <div class="offer-item-desc">What worked, what didn't, and what we run next. Everything documented, and you own all of it.</div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <!-- Guarantee -->
-      <div class="offer-guarantee">
-        <div class="og-icon">🤝</div>
-        <div>
-          <div class="og-title">The guarantee</div>
-          <p class="og-body">If you're not above your baseline by month 4, I keep working for free until you are, for up to 3 extra months. I only win when you grow.</p>
-          <p class="og-fine">Your baseline is your average monthly revenue over the 6 months before we start. Your side of the deal: launch what we build and show up to the monthly review.</p>
-        </div>
-      </div>
-      <!-- CTA bar -->
-      <div class="offer-cta-bar">
-        <div class="offer-cta-text"><strong>Start with a free strategy session.</strong> We find out if campaigns are the right fix, then go from there. No pressure, no pitch.</div>
-        <a href="mailto:matt@nomadcafe.co?subject=Strategy Session Request" class="btn btn-white">Book a free session <span class="arrow">→</span></a>
-      </div>
-    </div>
-  </div>
+<section id="how" style="background: #ECEBDC">
+<div style="max-width: 1160px; margin: 0 auto; padding: 112px 24px">
+<div style="font-family: 'DM Mono', monospace; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: #4E5A2F; margin-bottom: 16px">03 — How it works</div>
+<h2 style="font-family: 'Playfair Display', serif; font-weight: 500; font-size: clamp(34px, 4vw, 52px); line-height: 1.1; margin: 0 0 64px; max-width: 760px">Three steps. About two hours of your time.</h2>
+<ol style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px">
+<li style="background: #FFFFFF; border: 1px solid #D9D6C3; border-radius: 24px; padding: 36px 32px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; justify-content: space-between; align-items: baseline">
+<span style="font-family: 'Playfair Display', serif; font-size: 48px; line-height: 1; color: #5E6B3A">1</span>
+<span style="font-family: 'DM Mono', monospace; font-size: 13px; background: #E7E8D6; color: #3E4726; padding: 6px 12px; border-radius: 999px">20 minutes · free</span>
+</div>
+<div style="font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 500">Pull up a chair</div>
+<p style="margin: 0; color: #50544A">We walk through your café and find the one room losing you the most clients. You leave with it in writing.</p>
+</li>
+<li style="background: #FFFFFF; border: 1px solid #D9D6C3; border-radius: 24px; padding: 36px 32px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; justify-content: space-between; align-items: baseline">
+<span style="font-family: 'Playfair Display', serif; font-size: 48px; line-height: 1; color: #5E6B3A">2</span>
+<span style="font-family: 'DM Mono', monospace; font-size: 13px; background: #E7E8D6; color: #3E4726; padding: 6px 12px; border-radius: 999px">30 days</span>
+</div>
+<div style="font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 500">I fit out the café</div>
+<p style="margin: 0; color: #50544A">The AI system behind every room: capture, follow-up and tracking. I build it, you don't touch it.</p>
+</li>
+<li style="background: #FFFFFF; border: 1px solid #D9D6C3; border-radius: 24px; padding: 36px 32px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; justify-content: space-between; align-items: baseline">
+<span style="font-family: 'Playfair Display', serif; font-size: 48px; line-height: 1; color: #5E6B3A">3</span>
+<span style="font-family: 'DM Mono', monospace; font-size: 13px; background: #E7E8D6; color: #3E4726; padding: 6px 12px; border-radius: 999px">3–6 months</span>
+</div>
+<div style="font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 500">Co-op mode</div>
+<p style="margin: 0; color: #50544A">I stay on and build the next room with you, one at a time. Each month we review what worked and pour the next one.</p>
+</li>
+</ol>
+</div>
 </section>
 
-<!-- ABOUT -->
-<section class="about-section" id="about">
-  <div class="about-inner">
-    <div class="reveal" style="position:relative;">
-      <div class="about-frame">
-        <img src="assets/about-photo.jpg" alt="Matthew Long">
-      </div>
-      <div class="about-tag">
-        <strong>Matthew Long</strong>
-        Founder, Nomad Café<br>📍 Copenhagen
-      </div>
-    </div>
-    <div class="reveal">
-      <div class="label">About</div>
-      <h2 class="serif">Fewer things,<br><em>done properly.</em></h2>
-      <p>I'm Matthew. Toronto-born, Copenhagen by choice. Fifteen years in construction, an ad program at a Canadian telecom, and a stint pulling espresso. I build things with my hands and I don't oversell.</p>
-      <p>I spent years collecting courses and waiting to feel ready. What finally worked was starting before I was ready and building one thing properly. That's the whole idea here.</p>
-      <p>Nomad Café sets up the marketing system once, then builds you one campaign at a time, so you can get back to the work you went solo for. Fewer things, done properly, every month.</p>
-      <a href="#strategy" class="btn btn-forest">Book a free strategy session <span class="arrow">→</span></a>
-    </div>
-  </div>
+<section style="max-width: 1160px; margin: 0 auto; padding: 112px 24px">
+<div style="font-family: 'DM Mono', monospace; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: #4E5A2F; margin-bottom: 16px">04 — Every campaign</div>
+<h2 style="font-family: 'Playfair Display', serif; font-weight: 500; font-size: clamp(34px, 4vw, 52px); line-height: 1.1; margin: 0 0 20px; max-width: 760px">Three pieces, built to work together.</h2>
+<p style="margin: 0 0 56px; display: inline-flex; flex-wrap: wrap; align-items: center; gap: 10px; font-family: 'DM Mono', monospace; font-size: 13px; color: #3E4726; background: #FFFFFF; border: 1px solid #D9D6C3; padding: 8px 14px; border-radius: 999px"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>Example campaign: Mocha's Nap Club, a made-up side hustle run by our sloth</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 32px">
+<div style="display: flex; flex-direction: column; gap: 14px">
+<div role="img" aria-label="Example offer card: Mocha's Nap Club, 4 guided naps a month for overworked founders, $29 a month" style="aspect-ratio: 16 / 11; background: #FFFFFF; border: 1px solid #D9D6C3; border-radius: 20px; padding: 26px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between">
+<div style="display: flex; align-items: center; gap: 8px; font-family: 'DM Mono', monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #4E5A2F"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>Mocha's Nap Club</div>
+<div style="font-family: 'Playfair Display', serif; font-size: 25px; font-weight: 500; line-height: 1.2; color: #23261D">4 guided naps a month for overworked founders.</div>
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 12px">
+<div style="font-family: 'Playfair Display', serif; font-size: 30px; font-weight: 500; color: #23261D">$29<span style="font-family: 'DM Sans', sans-serif; font-size: 15px; color: #50544A"> / month</span></div>
+<span style="font-family: 'DM Mono', monospace; font-size: 12px; background: #E7E8D6; color: #3E4726; padding: 6px 12px; border-radius: 999px">Cancel anytime</span>
+</div>
+</div>
+<div style="font-family: 'DM Mono', monospace; font-size: 13px; color: #4E5A2F; margin-top: 8px">The offer · the counter</div>
+<div style="font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 500">One sentence anyone can repeat</div>
+<p style="margin: 0; color: #50544A">What you sell, who it's for and what it costs. Everything else points at it.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 14px">
+<div role="img" aria-label="Example lead magnet: The 20-Minute Nap Guide, a free PDF from Mocha's Nap Club" style="aspect-ratio: 16 / 11; background: #FFFFFF; border: 1px solid #D9D6C3; border-radius: 20px; padding: 22px; box-sizing: border-box; display: flex; align-items: center; justify-content: center">
+<div style="height: 100%; aspect-ratio: 3 / 4; background: #5E6B3A; border-radius: 6px 14px 14px 6px; padding: 18px 16px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between; color: #FFFFFF">
+<div style="font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: #E7E8D6">Free guide</div>
+<div>
+<div style="font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 500; line-height: 1.1; margin-bottom: 8px">The 20-Minute Nap Guide</div>
+<div style="font-size: 12px; line-height: 1.4; color: #E7E8D6">Wake up sharp, not groggy.</div>
+</div>
+<div style="display: flex; align-items: center; gap: 6px; font-family: 'DM Mono', monospace; font-size: 10px; color: #E7E8D6"><svg aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>Mocha's Nap Club</div>
+</div>
+</div>
+<div style="font-family: 'DM Mono', monospace; font-size: 13px; color: #4E5A2F; margin-top: 8px">The lead magnet · the window</div>
+<div style="font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 500">A reason to step inside</div>
+<p style="margin: 0; color: #50544A">A checklist, guide or free tool your ideal client actually wants, in exchange for an email.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 14px">
+<div role="img" aria-label="Example landing page on a phone: Your first nap's on us, with an email signup" style="aspect-ratio: 16 / 11; background: #FFFFFF; border: 1px solid #D9D6C3; border-radius: 20px; padding: 18px 0 0; box-sizing: border-box; display: flex; justify-content: center; overflow: hidden">
+<div style="width: 52%; height: 112%; border: 6px solid #23261D; border-bottom: none; border-radius: 26px 26px 0 0; background: #F6F2E8; padding: 18px 14px; box-sizing: border-box; display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; align-items: center; gap: 6px; font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.08em; text-transform: uppercase; color: #4E5A2F"><svg aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>Mocha's Nap Club</div>
+<div style="font-family: 'Playfair Display', serif; font-size: 19px; font-weight: 500; line-height: 1.1; color: #23261D">Your first nap's on us.</div>
+<div style="font-size: 10px; line-height: 1.4; color: #50544A">Get the free nap guide and a trial session.</div>
+<div style="background: #FFFFFF; border: 1px solid #D9D6C3; border-radius: 8px; padding: 7px 9px; font-size: 10px; color: #6E7262">you@email.com</div>
+<div style="background: #5E6B3A; color: #FFFFFF; border-radius: 999px; padding: 8px; font-size: 10px; font-weight: 600; text-align: center">Claim my free nap</div>
+</div>
+</div>
+<div style="font-family: 'DM Mono', monospace; font-size: 13px; color: #4E5A2F; margin-top: 8px">The landing page · the door</div>
+<div style="font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 500">One page, one job</div>
+<p style="margin: 0; color: #50544A">Sells the lead magnet and drops every lead straight into the kitchen.</p>
+</div>
+</div>
 </section>
 
-<!-- FINAL CTA -->
-<section class="final-cta">
-  <div class="final-inner">
-    <div class="label white center">Ready to start?</div>
-    <h2 class="serif white">You're close.<br>Let's build <em>the campaign.</em></h2>
-    <p>If you've read this far, something's probably off. Twenty minutes, no agenda, and you leave knowing what to fix first, whether you hire me or not.</p>
-    <div class="final-actions">
-      <a href="mailto:matt@nomadcafe.co?subject=Strategy Session Request" class="btn btn-white btn-lg">Book your free session <span class="arrow">→</span></a>
-      <a href="mailto:matt@nomadcafe.co" class="btn-ghost-white">Or just email me ↗</a>
-    </div>
-  </div>
+<section id="pricing" style="background: #ECEBDC">
+<div style="max-width: 1160px; margin: 0 auto; padding: 112px 24px">
+<div style="font-family: 'DM Mono', monospace; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: #4E5A2F; margin-bottom: 16px">05 — Pricing</div>
+<h2 style="font-family: 'Playfair Display', serif; font-weight: 500; font-size: clamp(34px, 4vw, 52px); line-height: 1.1; margin: 0 0 56px; max-width: 760px">I only win when you grow.</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px; align-items: stretch">
+<div style="background: #FFFFFF; border: 1px solid #D9D6C3; border-radius: 28px; padding: 44px 40px; box-sizing: border-box; display: flex; flex-direction: column">
+<div style="font-family: 'DM Mono', monospace; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: #4E5A2F; margin-bottom: 12px">Build</div>
+<div style="font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 500; margin-bottom: 20px">I build the stuck room and hand you the keys.</div>
+<div style="display: flex; align-items: baseline; gap: 8px; margin-bottom: 28px"><span style="font-family: 'Playfair Display', serif; font-size: 60px; font-weight: 500; line-height: 1">$1,500</span><span style="font-size: 18px; color: #50544A">one-time</span></div>
+<ul style="list-style: none; padding: 0; margin: 0 0 36px; display: flex; flex-direction: column; gap: 14px; color: #50544A; flex: 1">
+<li style="display: flex; gap: 12px"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#5E6B3A" stroke-width="1.8" style="flex: none; margin-top: 4px"><path d="M4 10.5l4 4 8-9"/></svg>One offer, one lead magnet, one landing page</li>
+<li style="display: flex; gap: 12px"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#5E6B3A" stroke-width="1.8" style="flex: none; margin-top: 4px"><path d="M4 10.5l4 4 8-9"/></svg>The AI follow-up system behind it</li>
+<li style="display: flex; gap: 12px"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#5E6B3A" stroke-width="1.8" style="flex: none; margin-top: 4px"><path d="M4 10.5l4 4 8-9"/></svg>Built for you in 30 days, then a walkthrough and handover</li>
+<li style="display: flex; gap: 12px"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#5E6B3A" stroke-width="1.8" style="flex: none; margin-top: 4px"><path d="M4 10.5l4 4 8-9"/></svg>Best if you want to run it yourself</li>
+</ul>
+<a href="#book" data-cta="pricing-build" style="align-self: flex-start; border: 2px solid #5E6B3A; color: #23261D; text-decoration: none; padding: 16px 26px; border-radius: 999px; font-weight: 600">Start with a free chat</a>
+</div>
+<div style="background: #FFFFFF; border: 1px solid #D9D6C3; border-radius: 28px; padding: 44px 40px; box-sizing: border-box; display: flex; flex-direction: column; border: 2px solid #5E6B3A">
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 12px"><span style="font-family: 'DM Mono', monospace; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: #4E5A2F">Build + Co-op</span><span style="font-family: 'DM Mono', monospace; font-size: 12px; background: #5E6B3A; color: #FFFFFF; padding: 6px 12px; border-radius: 999px">Recommended</span></div>
+<div style="font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 500; margin-bottom: 20px">I build it, then stay on to run it with you.</div>
+<div style="display: flex; align-items: baseline; gap: 8px; margin-bottom: 4px"><span style="font-family: 'Playfair Display', serif; font-size: 60px; font-weight: 500; line-height: 1">$500</span><span style="font-size: 18px; color: #50544A">/ month</span></div>
+<div style="font-size: 18px; margin-bottom: 28px">+ $1,500 setup + 10% of revenue above your baseline</div>
+<ul style="list-style: none; padding: 0; margin: 0 0 36px; display: flex; flex-direction: column; gap: 14px; color: #50544A; flex: 1">
+<li style="display: flex; gap: 12px"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#5E6B3A" stroke-width="1.8" style="flex: none; margin-top: 4px"><path d="M4 10.5l4 4 8-9"/></svg>Everything in Build</li>
+<li style="display: flex; gap: 12px"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#5E6B3A" stroke-width="1.8" style="flex: none; margin-top: 4px"><path d="M4 10.5l4 4 8-9"/></svg>Monthly review of the numbers and your one bottleneck</li>
+<li style="display: flex; gap: 12px"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#5E6B3A" stroke-width="1.8" style="flex: none; margin-top: 4px"><path d="M4 10.5l4 4 8-9"/></svg>The next room built from a shared queue, one at a time</li>
+<li style="display: flex; gap: 12px"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#5E6B3A" stroke-width="1.8" style="flex: none; margin-top: 4px"><path d="M4 10.5l4 4 8-9"/></svg>A co-founder at the bar, without giving away half your revenue</li>
+</ul>
+<a href="#book" data-cta="pricing-coop" style="align-self: flex-start; background: #5E6B3A; color: #FFFFFF; text-decoration: none; padding: 18px 28px; border-radius: 999px; font-weight: 600">Start with a free chat</a>
+</div>
+</div>
+<p style="margin: 28px 0 0; color: #50544A; font-size: 16px; max-width: 760px">30 days gets the doors open. Three to six months is how long it takes a café to get its regulars. The 10% only applies to growth above where you are today, so I only win when you do. You own everything we build. Prices in USD.</p>
+</div>
 </section>
 
-<!-- FOOTER -->
-<footer>
-  <div class="footer-logo">Nomad Café<span class="dot">.</span></div>
-  <ul class="footer-links">
-    <li><a href="#how">How It Works</a></li>
-    <li><a href="#strategy">Free Session</a></li>
-    <li><a href="#offer">The Offer</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="mailto:matt@nomadcafe.co">Contact</a></li>
-  </ul>
-  <div class="footer-copy">© 2026 Nomad Café · nomadcafe.co</div>
+<section id="rules" style="max-width: 1160px; margin: 0 auto; padding: 112px 24px; display: flex; flex-wrap: wrap; gap: 64px; align-items: flex-start">
+<figure style="flex: 1 1 320px; min-width: 0; max-width: 440px; margin: 0">
+<img loading="lazy" src="/assets/mocha/co-op-table.jpg" alt="Illustration of a café table by a window with two coffee cups, a laptop and a pour-over, Copenhagen rooftops outside" style="display: block; width: 100%; aspect-ratio: 619 / 768; object-fit: cover; border-radius: 28px">
+<figcaption style="margin-top: 14px; font-family: 'DM Mono', monospace; font-size: 13px; color: #50544A">Two cups. That's co-op mode.</figcaption>
+</figure>
+<div style="flex: 999 1 440px; min-width: 0; display: flex; flex-direction: column; gap: 20px">
+<div style="font-family: 'DM Mono', monospace; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: #4E5A2F">06 — House rules</div>
+<h2 style="font-family: 'Playfair Display', serif; font-weight: 500; font-size: clamp(34px, 4vw, 52px); line-height: 1.1; margin: 0">Fewer things, <em style="color: #5E6B3A; font-weight: 400">done properly.</em></h2>
+<p style="margin: 0; color: #33372C">I'm Matthew. Toronto-born, Copenhagen by choice, ex-construction and ex-barista. I spent years collecting courses and waiting to feel ready. What worked was starting anyway, with people beside me. So this café runs on a few rules.</p>
+<ol style="list-style: none; margin: 8px 0 0; padding: 0; display: flex; flex-direction: column">
+<li style="border-top: 1px solid #D9D6C3; padding: 20px 0; display: flex; gap: 20px">
+<span style="font-family: 'Playfair Display', serif; font-size: 22px; color: #5E6B3A; min-width: 28px">1</span>
+<div><div style="font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 500">Enjoy it, or it won't last</div><p style="margin: 4px 0 0; color: #50544A">Enjoyment is what keeps you going for years. We build what you'll actually keep doing.</p></div>
+</li>
+<li style="border-top: 1px solid #D9D6C3; padding: 20px 0; display: flex; gap: 20px">
+<span style="font-family: 'Playfair Display', serif; font-size: 22px; color: #5E6B3A; min-width: 28px">2</span>
+<div><div style="font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 500">Warm, never cold</div><p style="margin: 4px 0 0; color: #50544A">No spammy cold outreach that makes you hate your own business. Regulars come from warmth.</p></div>
+</li>
+<li style="border-top: 1px solid #D9D6C3; padding: 20px 0; display: flex; gap: 20px">
+<span style="font-family: 'Playfair Display', serif; font-size: 22px; color: #5E6B3A; min-width: 28px">3</span>
+<div><div style="font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 500">Nobody builds alone</div><p style="margin: 4px 0 0; color: #50544A">Building solo holds you back. You get a partner, not a vendor.</p></div>
+</li>
+<li style="border-top: 1px solid #D9D6C3; border-bottom: 1px solid #D9D6C3; padding: 20px 0; display: flex; gap: 20px">
+<span style="font-family: 'Playfair Display', serif; font-size: 22px; color: #5E6B3A; min-width: 28px">4</span>
+<div><div style="font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 500">The beer test</div><p style="margin: 4px 0 0; color: #50544A">I only work with people I'd happily grab a beer with, on projects that excite us both.</p></div>
+</li>
+</ol>
+</div>
+</section>
+
+<section id="faq" style="background: #ECEBDC">
+<div style="max-width: 1160px; margin: 0 auto; padding: 112px 24px">
+<div style="font-family: 'DM Mono', monospace; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: #4E5A2F; margin-bottom: 16px">07 — Questions</div>
+<h2 style="font-family: 'Playfair Display', serif; font-weight: 500; font-size: clamp(34px, 4vw, 52px); line-height: 1.1; margin: 0 0 48px">The honest answers.</h2>
+<dl style="margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px 56px">
+<div style="border-top: 1px solid #C4C6AC; padding-top: 24px">
+<dt style="font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 500; margin-bottom: 10px">How much of my time does this take?</dt>
+<dd style="margin: 0; color: #50544A">About two hours during the 30-day build, then a short monthly review if you're in co-op mode. I do the building.</dd>
+</div>
+<div style="border-top: 1px solid #C4C6AC; padding-top: 24px">
+<dt style="font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 500; margin-bottom: 10px">How do you know what my revenue is?</dt>
+<dd style="margin: 0; color: #50544A">A monthly screenshot of your revenue, or read-only access to your payments. Agreed in writing upfront.</dd>
+</div>
+<div style="border-top: 1px solid #C4C6AC; padding-top: 24px">
+<dt style="font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 500; margin-bottom: 10px">What if it doesn't work?</dt>
+<dd style="margin: 0; color: #50544A">The monthly fee is small on purpose. The 10% only kicks in on revenue above your baseline, so if the café isn't busier, I don't earn the upside.</dd>
+</div>
+<div style="border-top: 1px solid #C4C6AC; padding-top: 24px">
+<dt style="font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 500; margin-bottom: 10px">Do I own what you build?</dt>
+<dd style="margin: 0; color: #50544A">Yes. Every page, lead magnet and lead list is yours, during and after.</dd>
+</div>
+</dl>
+</div>
+</section>
+
+<section id="book" style="background: #5E6B3A; color: #FFFFFF">
+<div style="max-width: 860px; margin: 0 auto; padding: 120px 24px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 24px">
+<div style="font-family: 'DM Mono', monospace; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: #E7E8D6">Free · 20 minutes · no pitch</div>
+<h2 style="font-family: 'Playfair Display', serif; font-weight: 500; font-size: clamp(40px, 5.5vw, 72px); line-height: 1.02; margin: 0">Pull up a chair.</h2>
+<p style="margin: 0; font-size: 20px; color: #EEF0E2; max-width: 560px">We'll walk through your café and find the one room costing you clients. You leave knowing what to fix first, whether you hire me or not.</p>
+<a href="mailto:matt@nomadcafe.co?subject=Free%20strategy%20session" data-book data-cta="book" style="background: #FFFFFF; color: #23261D; text-decoration: none; padding: 18px 32px; border-radius: 999px; font-weight: 600; font-size: 18px; margin-top: 8px">Book your free chat</a>
+<a href="mailto:matt@nomadcafe.co" data-cta="email" style="color: #FFFFFF; font-size: 16px">Or email matt@nomadcafe.co</a>
+</div>
+</section>
+
+<footer style="max-width: 1160px; margin: 0 auto; padding: 32px 24px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; font-size: 15px; color: #50544A">
+<span style="font-family: 'Playfair Display', serif; font-size: 20px; color: #23261D">Nomad Café<span style="color: #B9772F">.</span></span>
+<span>Slow pour, steady growth · Copenhagen · © 2026</span>
 </footer>
 
-<script src="js/main.js"></script>
+</div>
+<script src="/js/main.js"></script>
 </body>
 </html>
