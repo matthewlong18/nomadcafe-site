@@ -1,6 +1,6 @@
 # Nomad Café
 
-Done-For-You Business Systems for Independent Operators.
+Turn strangers into regulars. An AI system for independent operators, built in 30 days.
 
 ## Stack
 

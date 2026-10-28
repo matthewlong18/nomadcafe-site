@@ -1,19 +1,5 @@
-// Booking link: paste the Calendly URL for the free strategy session here.
-// Until it's set, the "Book your free chat" button opens an email instead.
-const BOOK_URL = '';
-
-if (BOOK_URL) {
-  document.querySelectorAll('[data-book]').forEach((a) => {
-    const url = new URL(BOOK_URL);
-    const params = new URLSearchParams(location.search);
-    url.searchParams.set('utm_source', params.get('utm_source') || 'nomadcafe.co');
-    url.searchParams.set('utm_medium', params.get('utm_medium') || 'website');
-    url.searchParams.set('utm_campaign', params.get('utm_campaign') || 'homepage');
-    a.href = url.toString();
-    a.target = '_blank';
-    a.rel = 'noopener';
-  });
-}
+// Every Coffee Chat CTA links straight to Calendly with UTM tags set in index.html.
+// TODO: replace calendly.com/REPLACE_ME and tally.so/r/REPLACE_ME in index.html.
 
 // Count every CTA click in PostHog (which button, from where).
 document.addEventListener('click', (e) => {
